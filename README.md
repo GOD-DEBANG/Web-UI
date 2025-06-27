@@ -1,4 +1,6 @@
 Dentytech — Stunning 3D Water Background Landing Page
+🔗 Live Demo on Vercel
+👉 https://web-ui-self-ten.vercel.app/
 This is a modern and visually immersive landing page project called Dentytech, featuring:
 
 🌊 3D interactive water background (follows cursor)
