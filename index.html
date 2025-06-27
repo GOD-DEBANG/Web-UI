@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div class="nav-part1">
+                <h3>Manu</h3>
+                <i class="ri-menu-4-line"></i>
+            </div>
+            <div class="nav-part2">
+                <h1>Dentytech</h1>
+            </div>
+            <div class="nav-part3">
+                <button>Log In</button>
+                <button id="btn2">Sign up</button>
+            </div>
+        </div>
+        <h1 id = "h1">OUR ADVANTAGES</h1>
+        <img  id = "img1"src="aiony-haust-3TLl_97HNJo-unsplash.jpg">
+        <img id = "img2"src="dom-hill-nimElTcTNyY-unsplash.jpg">
+        <img  id = "img3" src="katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg">
+        <img id = "img4"src="michael-dam-mEZ3PoFGs_k-unsplash.jpg">
+        <h5 id="btm-left">Be a Man With Discipline and Cheracter</h5>
+        <h5 id="btm-center">Not with </h5>
+        <h5 id="btm-right">With Handsome Face </h5>
+    </div>
+    
+        <script>
+  const main = document.getElementById("main");
+
+  document.addEventListener("mousemove", (e) => {
+    const x = (e.clientX / window.innerWidth - 0.5) * 20;
+    const y = (e.clientY / window.innerHeight - 0.5) * 20;
+
+    main.style.transform = `rotateX(${y}deg) rotateY(${-x}deg)`;
+  });
+
+  document.addEventListener("mouseleave", () => {
+    main.style.transform = `rotateX(0deg) rotateY(0deg)`;
+  });
+</script>
+
+</scrip>
+</body>
+</html>
